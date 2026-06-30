@@ -22,7 +22,7 @@ const i18n = {
     'about.p2':        'He trabajado con arquitecturas por capas y hexagonal, integración de bases de datos relacionales y NoSQL, testing automatizado y entornos de producción monitorizados con herramientas como Dynatrace y OpenShift.',
     'about.p3':        'Busco seguir creciendo en equipos donde la calidad del código, las buenas prácticas y el trabajo en equipo sean valores fundamentales.',
     'about.location':  'España',
-    'about.role':      'Backend Developer',
+    'about.role':      'Backend Software Engineer',
     'about.languages': 'Español (nativo) · Inglés (B1)',
 
     'skills.title':  '🛠️ Habilidades técnicas',
@@ -137,7 +137,7 @@ const i18n = {
     'about.p2':        'I have worked with layered and hexagonal architectures, relational and NoSQL database integration, automated testing and production environments monitored with tools like Dynatrace and OpenShift.',
     'about.p3':        'I am looking to keep growing in teams where code quality, best practices and teamwork are core values.',
     'about.location':  'Spain',
-    'about.role':      'Backend Developer',
+    'about.role':      'Backend Software Engineer',
     'about.languages': 'Spanish (native) · English (B1)',
 
     'skills.title':  '🛠️ Technical skills',
