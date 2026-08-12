@@ -780,3 +780,145 @@ footer strong { color: var(--accent); }
   .skill-item > span:first-child { width: 110px; }
 }
 
+/* =========================================================
+   CERTIFICATIONS CAROUSEL
+   ========================================================= */
+
+.cert-carousel {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+
+/* ---------------------------------------------------------
+   Ventana
+   --------------------------------------------------------- */
+
+.cert-carousel-window {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+}
+
+
+/* ---------------------------------------------------------
+   Track
+   --------------------------------------------------------- */
+
+.cert-carousel-track {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  width: max-content;
+  margin: 0 !important;
+  padding: 0 !important;
+  gap: 16px !important;
+  transition: transform 0.45s ease;
+  will-change: transform;
+}
+
+/* ---------------------------------------------------------
+   BOTONES
+   --------------------------------------------------------- */
+
+.cert-carousel-btn {
+  flex: 0 0 46px !important;
+  width: 46px !important;
+  height: 46px !important;
+  min-width: 46px !important;
+  min-height: 46px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer;
+
+  /*
+   * Color visible independientemente
+   * de las variables de tu proyecto.
+   */
+  background: #333 !important;
+  color: #fff !important;
+  font-size: 24px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative;
+  z-index: 20;
+  transform: none !important;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+}
+
+.cert-carousel-btn:hover {
+  background: #555 !important;
+  transform: scale(1.08) !important;
+}
+
+.cert-carousel-btn:active {
+  transform: scale(0.95) !important;
+}
+
+
+/* ---------------------------------------------------------
+   Puntos
+   --------------------------------------------------------- */
+
+.cert-carousel-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.cert-dot {
+  width: 8px !important;
+  height: 8px !important;
+  min-width: 8px !important;
+  min-height: 8px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  border-radius: 50% !important;
+  background: currentColor !important;
+  opacity: 0.3;
+  cursor: pointer;
+  transform: none !important;
+}
+
+.cert-dot.active {
+  opacity: 1;
+  transform: scale(1.35) !important;
+}
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .cert-carousel {
+    gap: 8px;
+  }
+
+  .cert-carousel-btn {
+    flex: 0 0 38px !important;
+
+    width: 38px !important;
+    height: 38px !important;
+
+    min-width: 38px !important;
+    min-height: 38px !important;
+
+    font-size: 20px !important;
+  }
+
+}

@@ -57,9 +57,11 @@ const i18n = {
     'edu.cont.desc':    'Arquitectura hexagonal, DDD, microservicios, seguridad web (OWASP) y desarrollo con IA.',
 
     'cert.title':      '📜 Certificaciones',
+    'cert.name0':      'Microservicios Guía Completa de Docker & Kubernetes',
     'cert.name1':      'Desarrollo con IA: de 0 a Producción',
     'cert.name2':      'Spring Framework 6 & Spring Boot 3 desde cero a experto',
     'cert.name3':      'Universidad Java: De Cero a Master ',
+    'cert.name4':      'Desarrollo Web con Spring Boot - De Cero a Ninja',
     'modal.ia.lead':   'Certificación de Iniciación al Desarrollo con IA',
     'modal.spring.lead':   'Certificación de Finalización del curso de Spring Framework 6 & Spring Boot 3',
     'modal.UniJava.lead':   'Universidad Java: De Cero a Master',
@@ -169,9 +171,11 @@ const i18n = {
     'edu.dam.desc':     'Android and desktop application development. Specialisation in Java, relational databases, graphical interfaces and data access.',
 
     'cert.title':      '📜 Certifications',
+    'cert.name0':      'Microservices: A Complete Guide to Docker & Kubernetes',
     'cert.name1':      'AI-powered development: from zero to production',
     'cert.name2':      'Spring Framework 6 & Spring Boot 3 from zero to expert',
-    'cert.name3':      'Universidad Java: De Cero a Master ',
+    'cert.name3':      'Java University: From Zero to Master',
+    'cert.name4':      'Web Development with Spring Boot - From Zero to Ninja',
     'modal.spring.lead':   'Spring Framework 6 & Spring Boot 3 Course Completion Certificate',
     'modal.UniJava.lead':   'Java University: From Zero to Master',
     'cert.button':    'Certificate →',
@@ -265,4 +269,6 @@ function toggleLang() {
 }
 
 /* Aplicar idioma inicial al cargar */
-document.addEventListener('DOMContentLoaded', () => applyLang(currentLang));
+document.addEventListener('DOMContentLoaded', () => {
+  applyLang(currentLang);
+});
