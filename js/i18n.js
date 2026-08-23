@@ -51,6 +51,8 @@ const i18n = {
     'edu.daw.project':  '<strong>Proyecto fin de curso:</strong> <em>FunkBreakSchool</em> — plataforma web completa con gestión de usuarios, roles, horarios, inscripciones y panel de administración.',
     'edu.dam.title':    'CFGS – Desarrollo de Aplicaciones Multiplataforma',
     'edu.dam.desc':     'Desarrollo de aplicaciones móviles Android y de escritorio. Especialización en Java, bases de datos relacionales, interfaces gráficas y acceso a datos.',
+    'edu.dam.tech':     '<strong>Tecnologías:</strong> Java 8 · Spring Framework · Hibernate · PHP · JavaScript ES6 · jQuery · MySQL · Oracle · MongoDB · Neo4j · Git/GitHub',
+
     'edu.cont.title':   'Formación continua',
     'edu.cont.center':  'Cursos online & autodidacta',
     'edu.cont.year':    '2023 – Actualidad',
@@ -169,6 +171,7 @@ const i18n = {
     'edu.daw.project':  '<strong>Final project:</strong> <em>FunkBreakSchool</em> — complete web platform with user management, roles, timetables, enrolments and admin dashboard.',
     'edu.dam.title':    'HND – Multiplatform Application Development',
     'edu.dam.desc':     'Android and desktop application development. Specialisation in Java, relational databases, graphical interfaces and data access.',
+    'edu.dam.tech':     '<strong>Technologies:</strong> Java 8 · Spring Framework · Hibernate · PHP · JavaScript ES6 · jQuery · MySQL · Oracle · MongoDB · Neo4j · Git/GitHub',
 
     'cert.title':      '📜 Certifications',
     'cert.name0':      'Microservices: A Complete Guide to Docker & Kubernetes',
